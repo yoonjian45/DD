@@ -1,0 +1,21 @@
+데이터 조작어 
+데이터를 추가, 수정,삭제하는 조작어
+
+테이블 생성하기
+
+create tavle eta
+as select * from jobs;
+
+테이블에 데이터를 추가하는 insert문
+
+insert into eta
+(job_id , job_title, min_salary, max_salary)
+values('AD_PRES','KING',20000,40000);
+
+insert into eta
+(job_id, job_title, min_salary, max_salary) 
+values('FD_ABD','QUEEN',10000,125000);
+
+insert into eta
+(job_id,job_title,min_salary,max_salary) 
+values('SAR_ENG','CSH',NULL,NULL);
